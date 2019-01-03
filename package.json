@@ -1,6 +1,6 @@
 {
   "name": "js-bitmap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "repository": "https://github.com/YouHan26/js-bitmap.git",
   "author": "youhan26 <youhan26@gmail.com>",
