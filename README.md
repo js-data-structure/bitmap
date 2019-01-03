@@ -30,3 +30,6 @@ test();
 * push(n: Number)
 * isExist(n: Number) 
 * clear()
+
+# Poformance
+![preview](https://raw.githubusercontent.com/YouHan26/js-bitmap/master/WX20190103-171610.png)
