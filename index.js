@@ -30,6 +30,7 @@ class BitMap {
     const {index, flag} = getBitIndexAndValue(n);
     this._data[index] || (this._data[index] = 0);
     this._data[index] |= flag;
+    return this;
   }
 
   isExist(n) {
@@ -46,6 +47,7 @@ class BitMap {
 
   clear() {
     this._data = {};
+    return this;
   }
 
   toString() {
