@@ -1,6 +1,6 @@
 # js-bitmap
 
-# Install
+# Installation
 ```js
 yarn add js-bitmap
 ```
