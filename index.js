@@ -44,13 +44,15 @@ class BitMap {
     return Boolean(this._data[index] & flag);
   }
 
+  clear() {
+    this._data = {};
+  }
 
   toString() {
     const that = this;
-    const str = Object.keys(this._data).map(function (key) {
+    return Object.keys(this._data).map(function (key) {
       return `${(that._data[key]).toString(2)}`;
     }).join(',');
-    console.log(str);
   }
 }
 
